@@ -1,0 +1,301 @@
+site_name: Cummins Docs
+# site_url: https://localhost
+
+# ------------------ Principal ------------------
+nav:
+  - Home: home.md
+  - Applications:
+    - Applications: root/documents/index.md
+    - CMES:
+      - CMES: root/documents/cmes/index.md
+      - CMES Relatórios:
+        - "Como salvar xls na área de trabalho do usuário": root/documents/cmes-relatorios/how-to/como-salvar-xls-na-area-de-trabalho-do-usuario/como-salvar-xls-na-area-de-trabalho-do-usuario.md
+      - "Acesso ao CMES 5 (Guia PAM Portal)": root/documents/cmes/acesso-ao-cmes-pam/acesso-ao-cmes-pam.md
+      - "Acesso ao CMES CTT": root/documents/cmes/acesso-ao-cmes-ctt/acesso-ao-cmes-ctt.md
+      - "Alterar Bolota - Etiqueta CMES": root/documents/cmes/alterar-bolota-etiqueta-cmes/alterar-bolota-etiqueta-cmes.md
+      - "Remove Portal Cookies": root/documents/cmes/remove-portal-cookies-cmes/remove-portal-cookies-cmes.md
+      - "Instalação do VNC (STAND ou PUMA)": root/documents/cmes/instalacao-do-vnc-stand-ou-puma/instalacao-do-vnc-stand-ou-puma.md
+      - "Configuração dos Atalhos RD WEB": root/documents/cmes/configuracao-dos-atalhos-rd-web/configuracao-dos-atalhos-rd-web.md
+      - "Criação e alteração de acesso": root/documents/cmes/criacao-e-alteracao-de-acesso/criacao-e-alteracao-de-acesso.md
+      - "Erro AMI Upload": root/documents/cmes/erro-ami-upload/erro-ami-upload.md
+      - "Plaqueta não encontrada ao solicitar impressão": root/documents/cmes/plaqueta-nao-encontrada-ao-solicitar-impressao/plaqueta-nao-encontrada-ao-solicitar-impressao.md
+      - "Calibração Advantech": root/documents/cmes/calibracao-advantech/calibracao-advantech.md
+      - "Portal RD Web Travado": root/documents/cmes/portal-rd-web-travado/portal-rd-web-travado.md
+      - "Sinal de Pagamento (Migração pro Oracle)": root/documents/cmes/sinal-de-pagamento-migracao-pro-oracle/sinal-de-pagamento-migracao-pro-oracle.md
+      - "CBL Transição CMES3 to CMES5 (Instalação)": root/documents/cmes/cbl-transicao-cmes3-to-cmes5-instalacao/cbl-transicao-cmes3-to-cmes5-instalacao.md
+    - Factory Talk:
+      - "Factory Talk": root/documents/factory-talk/index.md
+      - "Transaction Manager": root/documents/factory-talk/factory-talk-transaction-manager/factory-talk-transaction-manager.md
+    - Softway:
+      - Softway: root/documents/softway/index.md
+      - BrokerSys:
+        - "1. Identificar Line_Location_ID": root/documents/softway/brokersys/identificar-line-location-id/identificar-line-location-id.md
+        - "2. Envio de Informações Nulas para Open RI": root/documents/softway/brokersys/envio-de-informacoes-nulas-para-open-ri/envio-de-informacoes-nulas-para-open-ri.md
+        - "3. Verificando Envio de Relatório via Interface Inout": root/documents/softway/brokersys/verificando-envio-de-relatorio-via-interface-inout/verificando-envio-de-relatorio-via-interface-inout.md
+      - "Dados Mestres":
+        - "1. Parceiro_Cliente - Análise_Geral": root/documents/softway/dados-mestres/parceiro-cliente-analise-geral/parceiro-cliente-analise-geral.md
+        - "2. Parceiro_Fornecedor - Análise_Geral": root/documents/softway/dados-mestres/parceiro-fornecedor-analise-geral/parceiro-fornecedor-analise-geral.md
+      - ExportSys:
+        - Checar:
+          - "1. Delivery Análise inicial": root/documents/softway/exportsys/checar/delivery-analise-inicial/delivery-analise-inicial.md
+          - "2. Erro cadastro Parceiro (Cliente)": root/documents/softway/exportsys/checar/erro-cadastro-parceiro-cliente/erro-cadastro-parceiro-cliente.md
+          - "3. Exclusão de DUE": root/documents/softway/exportsys/checar/exclusao-de-due/exclusao-de-due.md
+          - "4. SENF - Renotificação de SENF": root/documents/softway/exportsys/checar/senf-renotificacao-de-senf/senf-renotificacao-de-senf.md
+          - "5. Número de linha mais que o solicitado(Manual em andamento)": root/documents/softway/exportsys/checar/numero-de-linha-mais-que-o-solicitado-manual-em-andamento/numero-de-linha-mais-que-o-solicitado-manual-em-andamento.md
+          - "6. Renotificação de Código Fornecedor-Codigo Parceiro": root/documents/softway/exportsys/checar/renotificacao-de-codigo-fornecedor-codigo-parceiro/renotificacao-de-codigo-fornecedor-codigo-parceiro.md
+          - "7. Renotificação de Nota Fiscal (ExportSys)": root/documents/softway/exportsys/checar/renotificacao-de-nota-fiscal-exportsys/renotificacao-de-nota-fiscal-exportsys.md
+          - "8. Renotificação de Nota Fiscal de Exportação": root/documents/softway/exportsys/checar/renotificacao-de-nota-fiscal-de-exportacao/renotificacao-de-nota-fiscal-de-exportacao.md
+          - "9. Renotificação de Ordem - ExportSys": root/documents/softway/exportsys/checar/renotificacao-de-ordem-exportsys/renotificacao-de-ordem-exportsys.md
+        - Updated:
+          - "1. Embalagem - Erro de Migração": root/documents/softway/exportsys/updated/embalagem-erro-de-migracao/embalagem-erro-de-migracao.md
+          - "2. Ordem - Renotificação": root/documents/softway/exportsys/updated/ordem-renotificacao/ordem-renotificacao.md
+          - "3. Parceiro_Cliente - Análise_Geral": root/documents/softway/exportsys/updated/parceiro-cliente-analise-geral/parceiro-cliente-analise-geral.md
+          - "4. Parceiro_Fornecedor - Renotificação": root/documents/softway/exportsys/updated/parceiro-fornecedor-renotificacao/parceiro-fornecedor-renotificacao.md
+          - "5. Open RI - Renotificar Nota Fiscal para o RI 2.0": root/documents/softway/exportsys/updated/open-ri-renotificar-nota-fiscal-para-o-ri-2-0/open-ri-renotificar-nota-fiscal-para-o-ri-2-0.md
+        - "1. Aviso_Débito - Análise_Renotificação": root/documents/softway/exportsys/aviso-debito-analise-renotificacao/aviso-debito-analise-renotificacao.md
+        - "2. DUE - Ajuste_Qtd_Estatistica": root/documents/softway/exportsys/due-ajuste-qtd-estatistica/due-ajuste-qtd-estatistica.md
+        - "3. DUE - Exclusão": root/documents/softway/exportsys/due-exclusao/due-exclusao.md
+        - "4. Fluxo Geral Exportação": root/documents/softway/exportsys/fluxo-geral-exportacao/fluxo-geral-exportacao.md
+        - "5. ExportSys - Invoice - Divergência_Valor_Fatura AR": root/documents/softway/exportsys/invoice-divergencia-valor-fatura-ar/invoice-divergencia-valor-fatura-ar.md
+        - "6. NF - Análise e Renotificação": root/documents/softway/exportsys/nf-analise-e-renotificacao/nf-analise-e-renotificacao.md
+        - "7. Processo - Analise_Geral": root/documents/softway/exportsys/processo-analise-geral/processo-analise-geral.md
+        - "8. SENF - Renotificação": root/documents/softway/exportsys/senf-renotificacao/senf-renotificacao.md
+        - "9. Oracel Bpel - Reiniciar interface de Delivery": root/documents/softway/exportsys/oracel-bpel-reiniciar-interface-de-delivery/oracel-bpel-reiniciar-interface-de-delivery.md
+        - "10. Verificando Problema com 'SHIP TO' em faturas EXPORTAÇÃO - Oracle Bolt": root/documents/softway/exportsys/verificando-problema-com-ship-to-em-faturas-exportacao-oracle-bolt/verificando-problema-com-ship-to-em-faturas-exportacao-oracle-bolt.md
+        - "11. Verificando Peso Não Cadastrado em Item da Delivery com Detalhes Oracle": root/documents/softway/exportsys/verificando-peso-nao-cadastrado-em-item-da-delivery-com-detalhes-oracle/verificando-peso-nao-cadastrado-em-item-da-delivery-com-detalhes-oracle.md
+        - "12. Verificando Informações de Taxas de Embarque no ExportSys": root/documents/softway/exportsys/verificando-informacoes-de-taxas-de-embarque-no-exportsys/verificando-informacoes-de-taxas-de-embarque-no-exportsys.md
+      - ImportSys:
+        - "1. Análise de Retorno de Recebimento": /root/documents/softway/importsys/analise-de-retorno-de-recebimento/analise-de-retorno-de-recebimento.md
+        - "2. Bolt AP": /root/documents/softway/importsys/bolt-ap/bolt-ap.md
+        - "3. Cadastro de Comprador": /root/documents/softway/importsys/cadastro-de-comprador/cadastro-de-comprador.md
+        - "4. Data_Emissão_Fatura": /root/documents/softway/importsys/data-emissao-fatura/data-emissao-fatura.md
+        - "5. Erro cadastro Parceiro (Cliente)": /root/documents/softway/importsys/erro-cadastro-parceiro-cliente/erro-cadastro-parceiro-cliente.md
+        - "6. Fluxo Geral Importação": /root/documents/softway/importsys/fluxo-geral-importacao/fluxo-geral-importacao.md
+        - "7. Nota fiscal Importação - Erro": /root/documents/softway/importsys/nota-fiscal-importacao-erro/nota-fiscal-importacao-erro.md
+        - "8. Renotificação de Código Fornecedor-Codigo Parceiro": /root/documents/softway/importsys/renotificacao-de-codigo-fornecedor-codigo-parceiro/renotificacao-de-codigo-fornecedor-codigo-parceiro.md
+        - "9. Renotificação de Part Number 1.1": /root/documents/softway/importsys/renotificacao-de-part-number-1-1/renotificacao-de-part-number-1-1.md
+        - "10. Renotificação de PO": /root/documents/softway/importsys/renotificacao-de-po/renotificacao-de-po.md
+        - "11. Renotificação de PO - New": /root/documents/softway/importsys/renotificacao-de-po-new/renotificacao-de-po-new.md
+        - "12. Renotificar Nota Fiscal para o RI 2.0": /root/documents/softway/importsys/renotificar-nota-fiscal-para-o-ri-2-0/renotificar-nota-fiscal-para-o-ri-2-0.md
+        - "13. Solicitação de acesso Import Sys via WWIMS": /root/documents/softway/importsys/
+        - "14. Validando Número Despachante": /root/documents/softway/importsys/validando-numero-despachante/validando-numero-despachante.md
+        - "15. Validando Status Fatura Em Cãmbio": /root/documents/softway/importsys/validando-status-fatura-em-cambio/validando-status-fatura-em-cambio.md
+      - InOut:
+        - "1. Liberação da Interface - COMEXCONTENT": root/documents/softway/inout/liberacao-da-interface-comexcontent/liberacao-da-interface-comexcontent.md
+        - "2. Verificando Envio de Relatório via Interface InOut": root/documents/softway/inout/verificando-envio-de-relatorio-via-interface-inout/verificando-envio-de-relatorio-via-interface-inout.md
+      - "NFs EPEC - REPRESADAS":
+        - "1. Broker Sys - RENOTIFICAR STATUS APROVADA DE NF REPRESADA - SFW": root/documents/softway/nfs-epec-represadas/broker-sys-renotificar-status-aprovada-de-nf-represada-sfw/broker-sys-renotificar-status-aprovada-de-nf-represada-sfw.md
+      - "1. Middleware12c": root/documents/softway/middleware12c/middleware12c.md
+      - "2. Problema Acesso ao Sistema com LDAP": root/documents/softway/softway-problema-acesso-ao-sistema-com-ldap/softway-problema-acesso-ao-sistema-com-ldap.md
+      - "3. TomCat": root/documents/softway/softway-tom-cat/softway-tom-cat.md
+    - Mastersaf:
+      - Mastersaf: root/documents/mastersaf/index.md
+      - Mastersaf DFe:
+        - "Projeto DFE Cloud":
+          - "Especificação Técnica Servidores DFE": root/documents/mastersaf/mastersaf-dfe/projeto-dfe-cloud/especificacao-tecnica-servidores-dfe/especificacao-tecnica-servidores-dfe.md
+          - "Update Java": root/documents/mastersaf/mastersaf-dfe/projeto-dfe-cloud/update-java/update-java.md
+        - "Análise Problema DFE e Abertura Ticket Sevenfy": root/documents/mastersaf/mastersaf-dfe/analise-problema-dfe-e-abertura-ticket-sevenfy/analise-problema-dfe-e-abertura-ticket-sevenfy.md
+        - "Autenticação Extrator DFE": root/documents/mastersaf/mastersaf-dfe/autenticacao-extrator-dfe/autenticacao-extrator-dfe.md
+        - "Criar usuário Mastersaf DFE": root/documents/mastersaf/mastersaf-dfe/criar-usuario-mastersaf-dfe/criar-usuario-mastersaf-dfe.md
+        - "Introdução inicial Basica Mastersaf DFE": root/documents/mastersaf/mastersaf-dfe/introducao-inicial-basica-mastersaf-dfe/introducao-inicial-basica-mastersaf-dfe.md
+        - "Abertura de Chamado com a Thomson Reuters DFE": root/documents/mastersaf/mastersaf-dfe/abertura-de-chamado-com-a-thomson-reuters-dfe/abertura-de-chamado-com-a-thomson-reuters-dfe.md
+        - "Atualizando Certificado Digital Mastersaf DFE": root/documents/mastersaf/mastersaf-dfe/atualizando-certificado-digital-mastersaf-dfe/atualizando-certificado-digital-mastersaf-dfe.md
+        - "Impressora Offline": root/documents/mastersaf/mastersaf-dfe/impressora-offline/impressora-offline.md
+        - "Reenvio de Carta de Correção": root/documents/mastersaf/mastersaf-dfe/reenvio-de-carta-de-correcao/reenvio-de-carta-de-correcao.md
+        - "Verificando ou Cadastrando Impressora (PRINT CONSOLE)": root/documents/mastersaf/mastersaf-dfe/verificando-ou-cadastrando-impressora-print-console/verificando-ou-cadastrando-impressora-print-console.md
+        - "Verificando Problema com Impressora no Server DFE": root/documents/mastersaf/mastersaf-dfe/verificando-problema-com-impressora-no-server-dfe/verificando-problema-com-impressora-no-server-dfe.md
+        - "Cloud - verificando notas aprovadas após subir os servicos": root/documents/mastersaf/mastersaf-dfe/cloud-verificando-notas-aprovadas-apos-subir-os-servicos/cloud-verificando-notas-aprovadas-apos-subir-os-servicos.md
+        - "Autenticação Extrator DFE Azure": root/documents/mastersaf/mastersaf-dfe/autenticacao-extrator-dfe-azure/autenticacao-extrator-dfe-azure.md
+        - "Migração de NF-e do Oracle R12 para o Mastesaf DF-e": root/documents/mastersaf/mastersaf-dfe/migracao-de-nf-e-do-oracle-r12-para-o-mastesaf-df-e/migracao-de-nf-e-do-oracle-r12-para-o-mastesaf-df-e.md
+        - "Reiniciando Serviços Mastersaf DFE": root/documents/mastersaf/mastersaf-dfe/reiniciando-servicos/reiniciando-servicos.md
+        - "Migração do sistema Mastersaf DFe - Informações": root/documents/mastersaf/mastersaf-dfe/migracao-do-sistema-mastersaf-dfe-informacoes/migracao-do-sistema-mastersaf-dfe-informacoes.md
+      - Mastersaf DW:
+        - "Material de Apoio Suporte":
+          - "Ausência de campo Chave mvto_e_s": root/documents/mastersaf/mastersaf-dw/material-de-apoio-suporte/ausencia-de-campo-chave-mvto-e-s/ausencia-de-campo-chave-mvto-e-s.md
+          - "Erro relatório livro Customizado": root/documents/mastersaf/mastersaf-dw/material-de-apoio-suporte/erro-relatorio-livro-customizado/erro-relatorio-livro-customizado.md
+          - "Script ajustes CST-ICMS-IPI": root/documents/mastersaf/mastersaf-dw/material-de-apoio-suporte/script-ajustes-cst-icms-ipi/script-ajustes-cst-icms-ipi.md
+          - "Script EPEC Mastersaf DFE": root/documents/mastersaf/mastersaf-dw/material-de-apoio-suporte/script-epec-mastersaf-dfe/script-epec-mastersaf-dfe.md
+          - "Script Notas fiscais de Frete": root/documents/mastersaf/mastersaf-dw/material-de-apoio-suporte/script-notas-fiscais-de-frete/script-notas-fiscais-de-frete.md
+          - "Solicitação  de acesso Mastersaf DW via WWIMS": root/documents/mastersaf/mastersaf-dw/material-de-apoio-suporte/solicitacao-de-acesso-mastersaf-dw-via-wwims/solicitacao-de-acesso-mastersaf-dw-via-wwims.md
+        - "Processos Customizados":
+          - "Esp_Funcional_Bloco F_v1": root/documents/mastersaf/mastersaf-dw/processos-customizados/esp-funcional-bloco-f-v1/esp-funcional-bloco-f-v1.md
+          - "Esp_Funcional_Exclusao_ICMS_v1": root/documents/mastersaf/mastersaf-dw/processos-customizados/esp-funcional-exclusao-icms-v1/esp-funcional-exclusao-icms-v1.md
+          - "Esp_Funcional_Mercadoria_v2": root/documents/mastersaf/mastersaf-dw/processos-customizados/esp-funcional-mercadoria-v2/esp-funcional-mercadoria-v2.md
+          - "Esp_Funcional_NF_Canceldas_v1": root/documents/mastersaf/mastersaf-dw/processos-customizados/esp-funcional-nf-canceldas-v1/esp-funcional-nf-canceldas-v1.md
+          - "Esp_Funcional_Servicos_v1": root/documents/mastersaf/mastersaf-dw/processos-customizados/esp-funcional-servicos-v1/esp-funcional-servicos-v1.md
+          - "Esp_Funcional_Sucatas_v1": root/documents/mastersaf/mastersaf-dw/processos-customizados/esp-funcional-sucatas-v1/esp-funcional-sucatas-v1.md
+          - "Esp_Tecnica_Bloco F_v1": root/documents/mastersaf/mastersaf-dw/processos-customizados/esp-tecnica-bloco-f-v1/esp-tecnica-bloco-f-v1.md
+          - "Esp_Tecnica_Mercadoria_v2": root/documents/mastersaf/mastersaf-dw/processos-customizados/esp-tecnica-mercadoria-v2/esp-tecnica-mercadoria-v2.md
+          - "Esp_Tecnica_NF_Canceladas_v1": root/documents/mastersaf/mastersaf-dw/processos-customizados/esp-tecnica-nf-canceladas-v1/esp-tecnica-nf-canceladas-v1.md
+          - "Esp_Tecnica_Serviços_v1": root/documents/mastersaf/mastersaf-dw/processos-customizados/esp-tecnica-servicos-v1/esp-tecnica-servicos-v1.md
+          - "Esp_Tecnica_Sucata_v1": root/documents/mastersaf/mastersaf-dw/processos-customizados/esp-tecnica-sucata-v1/esp-tecnica-sucata-v1.md
+        - "Retirando espaço do partnumber SAFX52 - BLOCO K": root/documents/mastersaf/mastersaf-dw/retirando-espaco-do-partnumber-safx52-bloco-k/retirando-espaco-do-partnumber-safx52-bloco-k.md
+        - "Abertura de chamado Sevenfy": root/documents/mastersaf/mastersaf-dw/abertura-de-chamado-sevenfy/abertura-de-chamado-sevenfy.md
+        - "Acessando aplicações Mastersaf - Console Horizon": root/documents/mastersaf/mastersaf-dw/acessando-aplicacoes-mastersaf-console-horizon/acessando-aplicacoes-mastersaf-console-horizon.md
+        - "Acesso Msaf Horizon": root/documents/mastersaf/mastersaf-dw/acesso-msaf-horizon/acesso-msaf-horizon.md
+        - "Criação de Usuário": root/documents/mastersaf/mastersaf-dw/criacao-de-usuario/criacao-de-usuario.md
+        - "Verificando Erro ou Divergência Entre Plano de Contas": root/documents/mastersaf/mastersaf-dw/verificando-erro-ou-divergencia-entre-plano-de-contas/verificando-erro-ou-divergencia-entre-plano-de-contas.md
+        - "Powerlock restrição": root/documents/mastersaf/mastersaf-dw/powerlock-restricao/powerlock-restricao.md
+      - Mastersaf Interdados:
+        - "Falha de conexão com o Banco de Dados": root/documents/mastersaf/mastersaf-interdados/falha-de-conexao-com-o-banco-de-dados/falha-de-conexao-com-o-banco-de-dados.md
+        - "Falha conexão Interdados": root/documents/mastersaf/mastersaf-interdados/falha-conexao-interdados/falha-conexao-interdados.md
+        - "Processo de Carga Interdados": root/documents/mastersaf/mastersaf-interdados/processo-de-carga-interdados/processo-de-carga-interdados.md
+        - "Criação de Usuário": root/documents/mastersaf/mastersaf-interdados/criacao-de-usuario/criacao-de-usuario.md
+        - "Análise de Cargas no Interdados": root/documents/mastersaf/mastersaf-interdados/analise-de-cargas-no-interdados/analise-de-cargas-no-interdados.md
+      - Mastersaf Onesource - Reinf:
+        - "Onesoruce Ambiente PROD-TEST": root/documents/mastersaf/mastersaf-onesource-reinf/onesource-ambiente-prod-test/onesource-ambiente-prod-test.md
+        - "Reiniciando Serviços Onesource Produção": root/documents/mastersaf/mastersaf-onesource-reinf/onesource-reiniciando-servicos-onesource-producao/onesource-reiniciando-servicos-onesource-producao.md
+        - "Step inicialização do servidor Onesource Produção": root/documents/mastersaf/mastersaf-onesource-reinf/step-inicializacao-servidor-onesource-producao/step-inicializacao-servidor-onesource-producao.md
+      - TaxOne:
+        - "Criação de Acesso de Usuário": root/documents/mastersaf/taxone/criacao-de-acesso-de-usuario/criacao-de-acesso-de-usuario.md
+        - "Processamento de cargas de SAFX - OPERACAO": root/documents/mastersaf/taxone/processamento-de-cargas-de-safx-operacao/processamento-de-cargas-de-safx-operacao.md
+        - "Processamento de cargas de SAFX - TI_SUPORTE": root/documents/mastersaf/taxone/processamento-de-cargas-de-safx-ti-suporte/processamento-de-cargas-de-safx-ti-suporte.md
+    - PUMA:
+      - PUMA: root/documents/puma/index.md
+      - "Erro DB ORA-00257 Archiver error": root/documents/puma/erro-db-ora-00257-archiver-error/erro-db-ora-00257-archiver-error.md
+      - "Novo processo para utilizar o Report Generator e o TSF Editor": root/documents/puma/novo-processo-para-utilizar-o-report-generator-e-o-tsf-editor/novo-processo-para-utilizar-o-report-generator-e-o-tsf-editor.md
+      - "Report Generator - CSF is now Executed": root/documents/puma/report-generator-csf-is-now-executed/report-generator-csf-is-now-executed.md
+    - Datametrics:
+      - Datametrics: root/documents/datametrics/index.md
+      - Abrir Plano:
+        - "Erro Crítico Acessando o Sistema MES": root/documents/datametrics/abrir-plano-erro-critico-acessando-o-sistema-mes/abrir-plano-erro-critico-acessando-o-sistema-mes.md
+        - "Erro de Estação Não Configurada": root/documents/datametrics/abrir-plano-erro-de-estacao-nao-configurada/abrir-plano-erro-de-estacao-nao-configurada.md
+        - "Erro na Configuração da Tabela": root/documents/datametrics/abrir-plano-erro-na-configuracao-da-tabela/abrir-plano-erro-na-configuracao-da-tabela.md
+      - "CBL_PART_INSP - Erro de Adicionar um Novo Partnumber": root/documents/datametrics/cbl-part-insp-erro-de-adicionar-um-novo-partnumber/cbl-part-insp-erro-de-adicionar-um-novo-partnumber.md
+      - "Criação de Usuário e Redefinição de Senha": root/documents/datametrics/criacao-de-usuario-e-redefinicao-de-senha/criacao-de-usuario-e-redefinicao-de-senha.md
+      - "Erro ao Executar o Datametrics (IsolatedStorage)": root/documents/datametrics/erro-ao-executar-o-datametrics-isolatedstorage/erro-ao-executar-o-datametrics-isolatedstorage.md
+      - "Falha ao Abrir o Sistema - Troubleshooting #01": root/documents/datametrics/falha-ao-abrir-o-sistema-troubleshooting-01/falha-ao-abrir-o-sistema-troubleshooting-01.md
+      - "Falha ao Abrir o Sistema - Troubleshooting #02": root/documents/datametrics/falha-ao-abrir-o-sistema-troubleshooting-02/falha-ao-abrir-o-sistema-troubleshooting-02.md
+      - "Regional Settings": root/documents/datametrics/regional-settings/regional-settings.md
+      - "Reset do Cabeçalho": root/documents/datametrics/reset-do-cabecalho/reset-do-cabecalho.md
+      - "Restart do GAM Conversor": root/documents/datametrics/restart-do-gam-conversor/restart-do-gam-conversor.md
+    - Gerezim:
+      - Gerezim: root/documents/gerezim/index.md 
+      - "Criação de Usuário": root/documents/gerezim/criacao-de-usuario/criacao-de-usuario.md
+      - "Info_OLD": root/documents/gerezim/info-old/info-old.md
+      - "Portal Offline": root/documents/gerezim/portal-offline/portal-offline.md
+      - "Preço não zerado no display": root/documents/gerezim/preco-nao-zerado-no-display/preco-nao-zerado-no-display.md
+    - 4VHead:
+      - 4VHead: root/documents/4vhead/index.md
+      - "APRISO 2021 - Smart Monitor" : root/documents/4vhead/apriso-2021-smart-monitor/apriso-2021-smart-monitor.md
+      - "Apriso - Erro Tela de Login (X -- ING)" : root/documents/4vhead/apriso-erro-tela-de-login-x-ing/apriso-erro-tela-de-login-x-ing.md
+      - "Apriso - Operações Offline" : root/documents/4vhead/apriso-operacoes-offline/apriso-operacoes-offline.md
+      - "Apriso - Rastreabilidade - Bit Travado" : root/documents/4vhead/apriso-rastreabilidade-bit-travado/apriso-rastreabilidade-bit-travado.md
+
+  - Transition Documents: 
+    - Transition Documents: root/transition-documents/index.md
+    - Factory Talk:  
+      - "CTRM Upgrade Project - Solution Design Document": root/transition-documents/factory-talk/ctrm-upgrade-project-transition-document/ctrm-upgrade-project-transition-document.md 
+    - PUMA:
+      - "Transição Concerto": root/transition-documents/puma/transicao-concerto/transicao-concerto.md
+      - "Transição Puma": root/transition-documents/puma/transicao-puma/transicao-puma.md
+      - "Transição Report Generator": root/transition-documents/puma/transicao-report-generator/transicao-report-generator.md
+    - 2VHead:
+      - "Manual da Linha": root/transition-documents/2vhead/manual-da-linha-2v-1/manual-da-linha-2v-1.md
+    - CBLRTP:
+      - "CTRM Upgrade Project Solution Design": root/transition-documents/cblrtp/cblrtp-ctrm-upgrade-project-solution-design/cblrtp-ctrm-upgrade-project-solution-design.md
+    - Cribmaster:
+      - "Cribmaster Vending Machine HSE Solution Design": root/transition-documents/cribmaster-vending-machine/cribmaster-vending-machine-hse-solution-design/cribmaster-vending-machine-hse-solution-design.md
+  
+  - Validation:
+    - "Application Validation": root/documents/validation/application-validation-process/application-validation-process.md
+    - "HR Application Validation": root/documents/validation/application-validation-process-hr/application-validation-process-hr.md
+  
+  - Tutorials: 
+    - Tutorials: root/documents/tutorials/index.md
+    - "Como configurar um repositório GIT": root/documents/tutorials/como-configurar-um-repositorio-git/como-configurar-um-repositorio-git.md
+
+# ------------------ CONFIGS ------------------
+
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    # Dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: red
+      accent: red
+
+    # Light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: red
+      accent: red
+  font:
+    text: Rubik
+    code: Fira Mono
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.tooltips
+    - navigation.tracking
+    - navigation.instant
+    - navigation.instant.progress
+    # - navigation.path
+    - navigation.indexes
+    - navigation.tabs
+    - search.suggest
+    - header.autohide
+    - announce.dismiss
+    - toc.follow
+    
+watch:
+  - docs/includes/glossary.md
+
+extra:
+  # turn off the credits in the footer
+  generator: false
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+copyright: "&copy; 2025 Cummins - Powered by <strong>Softtek</strong> - Developed by <strong>Matheus R. Delmaschio Borges</strong>"
+
+plugins:
+  - glightbox
+  - search
+  - git-revision-date-localized:
+      type: datetime
+      locale: pt_BR
+      timezone: America/Sao_Paulo
+      enable_creation_date: true
+      fallback_to_build_date: true
+      enable_parallel_processing: True
+      enable_git_follow: false
+
+markdown_extensions:
+  - abbr
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+  
+      auto_append:
+        - docs/includes/glossary.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+ 

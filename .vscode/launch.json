@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Poetry Debug",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/docwriter/src/docwriter/main.py",
+      "console": "integratedTerminal",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    }
+  ]
+}

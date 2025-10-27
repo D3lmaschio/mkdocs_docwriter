@@ -1,0 +1,100 @@
+site_name: Cummins Docs
+# site_url: https://localhost
+
+# ------------------ Principal ------------------
+nav:
+- Aplicações:
+  - Aplicações: Aplicações/index.md
+  - Teste:
+    - Teste: Aplicações/Teste/index.md
+    - Brincadeira: teste.md
+
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    # Dark mode
+  - scheme: slate
+    toggle:
+      icon: material/weather-sunny
+      name: Dark mode
+    primary: red
+    accent: red
+
+    # Light mode
+  - scheme: default
+    toggle:
+      icon: material/weather-night
+      name: Light mode
+    primary: red
+    accent: red
+  font:
+    text: Rubik
+    code: Fira Mono
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  features:
+  - content.action.edit
+  - content.action.view
+  - content.tooltips
+  - navigation.tracking
+  - navigation.instant
+  - navigation.instant.progress
+    # - navigation.path
+  - navigation.indexes
+  - navigation.tabs
+  - search.suggest
+  - header.autohide
+  - announce.dismiss
+  - toc.follow
+
+watch:
+- docs/includes/glossary.md
+
+extra:
+  # turn off the credits in the footer
+  generator: false
+
+extra_css:
+- assets/stylesheets/extra.css
+
+copyright: "&copy; 2025 Cummins - Powered by <strong>Softtek</strong> - Developed
+  by <strong>Matheus R. Delmaschio Borges</strong>"
+
+plugins:
+- glightbox
+- search
+  # - obsidian-bridge
+- exclude:
+    glob:
+    - "root/*"
+    - "home.md"
+
+markdown_extensions:
+- abbr
+- pymdownx.highlight:
+    anchor_linenums: true
+    line_spans: __span
+    pygments_lang_class: true
+- pymdownx.inlinehilite
+- pymdownx.snippets:
+    auto_append:
+    - docs/includes/glossary.md
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format
+- pymdownx.tabbed:
+    alternate_style: true
+- admonition
+- pymdownx.details
+- tables
+- attr_list
+- md_in_html
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+ 
