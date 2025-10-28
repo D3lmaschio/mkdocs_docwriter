@@ -1,5 +1,8 @@
-from core import *
-
+from ui import QApplication, NavManager
+import sys
 
 if __name__ == "__main__":
-    index(r"C:/Users/ao32v/projects/docwriter-app/teste.md", "Aplicações.Teste")
+    app = QApplication(sys.argv)
+    window = NavManager()
+    window.show()
+    sys.exit(app.exec())

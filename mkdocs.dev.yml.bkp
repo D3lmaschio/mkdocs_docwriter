@@ -7,8 +7,16 @@ nav:
   - Aplicações: Aplicações/index.md
   - Teste:
     - Teste: Aplicações/Teste/index.md
-    - Brincadeira: teste.md
-
+    - Teste2: Aplicações/Teste/aaa.md
+- Abacaxi:
+  - Teste:
+    - Abc:
+      - teste1:
+        - teste2:
+          - teste3:
+            - teste4:
+              - teste5: 
+                  Abacaxi/Teste/Abc/teste1/teste2/teste3/teste4/teste5/abc.md
 theme:
   name: material
   custom_dir: overrides
