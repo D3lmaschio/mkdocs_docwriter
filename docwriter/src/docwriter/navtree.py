@@ -35,7 +35,7 @@ def nav_add(nav: list, path: str, file_path: str) -> list:
     return nav
 
 def nav_remove(nav: list, path: str) -> list:
-    """Remove um item da estrutura nav do mkdocs.yml, limpando níveis vazios."""
+    """Remove apenas o item selecionado e seus filhos da estrutura nav do mkdocs.yml."""
     keys = path.split('.')
     current = nav
     stack = []
@@ -53,12 +53,16 @@ def nav_remove(nav: list, path: str) -> list:
             current = found[key]
         else:
             break
+    # Remove apenas o item selecionado
     parent, found, key = stack.pop()
     parent.remove(found)
+    # Se o pai ficou vazio, remove o pai (limpeza de níveis vazios)
     while stack:
         parent, found, key = stack.pop()
-        if not found[key]:
+        if isinstance(found[key], list) and not found[key]:
             parent.remove(found)
+        else:
+            break
     return nav
 
 def nav_update(nav: list, path: str, new_file: str) -> bool:

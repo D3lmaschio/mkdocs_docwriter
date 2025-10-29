@@ -1,5 +1,5 @@
 import os as _os
-from exceptions import MkdocsUtilsError as _MkdocsUtilsError
+from docwriter.exceptions import MkdocsUtilsError as _MkdocsUtilsError
 from ruamel.yaml.scalarstring import DoubleQuotedScalarString as DQ
 
 def yamlpath_to_filepath(yaml_path: str, file_path: str):

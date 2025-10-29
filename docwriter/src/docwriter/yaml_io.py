@@ -1,6 +1,6 @@
 import shutil as _shutil, os as _os
 from ruamel.yaml import YAML as __YAML
-from exceptions import DocumentNotFoundError as _DocumentNotFoundError, MkdocsIndexingWriteError as _MkdocsIndexingWriteError
+from docwriter.exceptions import DocumentNotFoundError as _DocumentNotFoundError, MkdocsIndexingWriteError as _MkdocsIndexingWriteError
 from ruamel.yaml.scalarstring import DoubleQuotedScalarString as DQ
 
 _yaml = __YAML()

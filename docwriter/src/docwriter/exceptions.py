@@ -1,4 +1,4 @@
-from config import MKDOCS_CONFIG_PATH
+from docwriter.config import MKDOCS_CONFIG_PATH
 
 class MkdocsUtilsError(Exception):
     """Base exception for utils package exceptions"""
