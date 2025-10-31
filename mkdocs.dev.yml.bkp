@@ -3,20 +3,9 @@ site_name: Cummins Docs
 
 # ------------------ Principal ------------------
 nav:
-- Aplicações:
-  - Aplicações: Aplicações/index.md
-  - Teste:
-    - Teste: Aplicações/Teste/index.md
-    - Teste2: Aplicações/Teste/aaa.md
-- Abacaxi:
-  - Teste:
-    - Abc:
-      - teste1:
-        - teste2:
-          - teste3:
-            - teste4:
-              - teste5: 
-                  Abacaxi/Teste/Abc/teste1/teste2/teste3/teste4/teste5/abc.md
+- Folder:
+  - Application:
+    - Document: Folder/Application/Document/abc.md
 theme:
   name: material
   custom_dir: overrides

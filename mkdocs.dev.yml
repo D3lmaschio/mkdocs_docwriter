@@ -2,8 +2,7 @@ site_name: Cummins Docs
 # site_url: https://localhost
 
 # ------------------ Principal ------------------
-nav:
-- Aplicações: Aplicações/
+nav: []
 theme:
   name: material
   custom_dir: overrides
